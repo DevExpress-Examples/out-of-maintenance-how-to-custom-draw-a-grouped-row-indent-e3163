@@ -34,11 +34,11 @@ Namespace DrawImageOnRowIndent
 			gridControl1.DataSource = dt
 			IconPainter = New GridIconPainter(gridView1)
 
-			IconPainter.RowIcons.Add(0, My.Resources.Icon1)
-			IconPainter.RowIcons.Add(2, My.Resources.Icon2)
-			IconPainter.RowIcons.Add(4, My.Resources.Icon1)
-			IconPainter.RowIcons.Add(5, My.Resources.Icon2)
-			IconPainter.RowIcons.Add(7, My.Resources.Icon1)
+			IconPainter.RowIcons.Add(0, Resources.Icon1)
+			IconPainter.RowIcons.Add(2, Resources.Icon2)
+			IconPainter.RowIcons.Add(4, Resources.Icon1)
+			IconPainter.RowIcons.Add(5, Resources.Icon2)
+			IconPainter.RowIcons.Add(7, Resources.Icon1)
 		End Sub
 	End Class
 End Namespace
